@@ -1,0 +1,2 @@
+# WikiSurf
+Scrapper/ Crawler sampler. It surfs the Wikipedia jumping from article to article, sampling frequencies for a selected word, with a sampling pace of: GAP = Population_of_articles / sample_size + randomSmallIntegerCoefficient . Prints and saves the selected links and the frequencies of the word. It doesnt samples frequencies from random pagees on wikipedia, but it avoids "neighbourhoods" of wikipedia links so it has a more clear sample and cover a bigger range.
